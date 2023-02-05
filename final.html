@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>final!</title>
+    <style>
+        *{margin:0; padding:0;}
+        #wrap{width: 100vw; height:100vh; display:flex; flex-direction: column; align-items: center; justify-content: center;}
+        
+    </style>
+</head>
+
+<body>
+    <div id="wrap">
+        <h1>지금 시간은?</h1>
+        <h2 id="clock">00:00</h2>
+        <div>
+            <form class="hidden" id="login-form">
+                <input maxlength="15" required="" type="text" placeholder="what is your name?">
+                <button>Log In</button>
+            </form>
+
+            <h1 class="" id="greeting">Hello ㅇㅇ</h1>
+        </div>
+        <div id="quote">
+            <span></span>
+            <span></span>
+        </div>
+        <form id="todo-form">
+            <input type="text" placeholder="Write a To do and Press Enter" required>
+        </form>
+        <ul id="todo-list">
+
+        </ul>
+        <div id="weather">
+            <span></span>
+            <span></span>
+        </div>
+        <button class="bgChangeBtn">배경바꾸기</button>
+    </div>
+
+    <script src="final.js"></script>
+</body>
+
+</html>
